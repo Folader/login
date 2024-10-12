@@ -20,9 +20,9 @@ void login::on_pushButton_clicked()
 
     if (log == 'a' && pass == 'a')
     {
+        emit aunt();
         hide();
-        calc = new calculator(this);
-        calc->show();
     }
+
 }
 

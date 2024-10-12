@@ -18,7 +18,10 @@ public:
 private:
     Ui::calculator *ui;
 
+//public slots:
+    //void slot_aunt();
 private slots:
+
     void digits_numbers();
     void on_pushButton_dot_clicked();
     void operations();

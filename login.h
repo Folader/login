@@ -24,5 +24,8 @@ private slots:
 private:
     calculator *calc;
     Ui::login *ui;
+signals:
+    void aunt();
+
 };
 #endif // LOGIN_H

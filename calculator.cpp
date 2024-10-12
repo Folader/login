@@ -5,7 +5,7 @@
 double num_first;
 calculator::calculator(QWidget *parent)
     : QDialog(parent)
-    , ui(new Ui::calculator)
+, ui(new Ui::calculator)
 {
     ui->setupUi(this);
 
